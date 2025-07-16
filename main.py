@@ -74,5 +74,5 @@ async def setupelojobb(interaction: discord.Interaction):
 async def on_ready():
     print(f'Bot {client.user} está online e pronto!')
 # iniciando o bot
-
+# Trigger para o deploy no Railway
 client.run(TOKEN)
