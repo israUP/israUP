@@ -73,6 +73,6 @@ async def setupelojobb(interaction: discord.Interaction):
 @client.event
 async def on_ready():
     print(f'Bot {client.user} está online e pronto!')
-
+# iniciando o bot
 
 client.run(TOKEN)
